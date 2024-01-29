@@ -19,7 +19,7 @@ export class LoginComponent implements AfterViewInit {
 
   public loginForm: FormGroup = this.fb.group({
     email: [localStorage.getItem('email') || '', [Validators.required, Validators.email]],
-    password: ['', Validators.required],
+    password: ['123456', Validators.required],
     remember: [false]
   });
 

@@ -15,3 +15,8 @@
 .cursor {
     cursor: pointer;
 }
+
+.img-avatar {
+    height: 200px;;
+    width: 200px;;
+}
